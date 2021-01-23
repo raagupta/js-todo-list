@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="./style.css">
+        <title>To-Do List</title>
+    </head>
+
+    <body>
+        <!--header-->
+        <header>
+            <h1>TO-DO LIST</h1>
+        </header>
+
+        <!--input field to enter task-->
+        <form>
+            <input type="text" placeholder="Add task" class="todo_input" />
+            <button class="todo_button" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+        </form>
+
+        <!--container for displaying the tasks-->
+        <div class="todo_container">
+            <ul class="todo_list"></ul>
+        </div>
+
+        <!--adding JavaScript-->
+        <script src="./app.js"></script>
+    </body>
+</html>
